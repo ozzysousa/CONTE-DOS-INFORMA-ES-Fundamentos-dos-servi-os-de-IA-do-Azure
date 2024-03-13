@@ -1,0 +1,1 @@
+# CONTE-DOS-INFORMA-ES-Fundamentos-dos-servi-os-de-IA-do-Azure

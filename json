@@ -1,0 +1,26 @@
+{
+  "name": "previsao-modelo",
+  "description": "Serviço de previsão para modelo de previsão de vendas",
+  "auth": {
+    "keyType": "key",
+    "primaryKey": "SUA_CHAVE_PRIMÁRIA_AQUI"
+  },
+  "containerInstance": {
+    "cpu": 1,
+    "memoryGb": 2,
+    "containerImage": "azureml/azureml_1ae0bcf0192bc779b747f24ae1c3a1b9",
+    "region": "sua-regiao"
+  },
+  "scoringUri": "http://SEU_IP_OU_DOMÍNIO/api/v1/service/previsao-modelo/score",
+  "assetUri": "azureml://asset/AMSEngine/SEU_ID_DE_MODELO",
+  "active": true,
+  "input": {
+    "input_type": "input_type_here",
+    "input_shape": "input_shape_here"
+  },
+  "output": {
+    "output_type": "output_type_here",
+    "output_shape": "output_shape_here"
+  },
+  "accelerator": "AUTO"
+}
